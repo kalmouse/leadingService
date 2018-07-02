@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Leading.Services;
+
+message EmptyRequest {
+}
+
+message EmptyResponse {
+}
+
+message StatusResponse {
+    bool status = 1;
+}
+
+message ObjectId {
+    int32 id = 1;
+}
+

@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+import "common.proto";
+
+package Leading.Services;
+
+service RegionService {
+	rpc FindRegionsByLevel(RegionLevel) returns (RegionsDto);
+	rpc FindAllRegions(EmptyRequest) returns (RegionsDto);
+	rpc CreateAddress(AddressDto) returns (ObjectId);
+	rpc UpdateAddress(AddressDto) returns (StatusResponse);
+	rpc GetAddressById(ObjectId) returns (AddressDto);
+	rpc RemoveAddressById(ObjectId) returns (StatusResponse);
+	rpc FindRegionsBySkuId(FindRegionsBySkuIdRequest) returns (FindRegionsBySkuIdResponse);
+}
+
+message RegionsDto {
+    repeated RegionDto regions = 1;
+}
+
+message RegionDto {
+	int32 id = 1;
+	string code = 2;
+	string parentCode = 3;
+	string name = 4;
+	int32 level = 5;
+	int32 codeType = 6;
+}
+
+message RegionLevel {
+	int32 level = 1;
+}
+
+message AddressDto {
+	int32 id = 1;
+	string provinceCode = 2;
+	string provinceName = 3;
+	string cityCode = 4;
+	string cityName = 5;
+	string districtCode = 6;
+	string districtName = 7;
+	string street = 8;
+	string zip = 9;
+	string contactTelephone = 10;
+	string contactName = 11;
+	string codeType = 12;
+}
+
+
+
+message FindRegionsBySkuIdRequest{
+	int32 sku_id=1;
+}
+
+message FindRegionsBySkuIdResponse{
+	repeated Region region=1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

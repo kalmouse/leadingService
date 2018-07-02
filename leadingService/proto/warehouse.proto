@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package Leading.Services;
+
+service WarehouseService {
+    rpc AddBranchToWarehouse(stream AddBranchToWarehouseRequest) returns (AddBranchToWarehouseResponse);
+}
+
+
+message AddBranchToWarehouseRequest {
+	int32 branchId = 1;
+    string branchRank = 2;
+    int32 warehouseId = 3;
+    int32 isAvailable = 4; 
+}
+
+
+
+message AddBranchToWarehouseResponse {
+	bool IsOk=1;
+} 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

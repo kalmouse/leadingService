@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadingServiceClient", "LeadingServiceClient.csproj", "{A6D66454-BD07-41B8-95AF-4CBBB752D300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Debug|x86.ActiveCfg = Debug|x86
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Debug|x86.Build.0 = Debug|x86
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Release|x86.ActiveCfg = Release|x86
+		{A6D66454-BD07-41B8-95AF-4CBBB752D300}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71902CB6-7262-4252-BD21-664A030E8704}
+	EndGlobalSection
+EndGlobal

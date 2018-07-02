@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package Leading.Services;
+
+service RegionService {
+    rpc FindRegionsByLevel(FindRegionsByLevelRequest) returns (FindRegionsByLevelResponse);
+	rpc FindRegionsBySkuId(FindRegionsBySkuIdRequest) returns (FindRegionsBySkuIdResponse);
+}
+
+message FindRegionsByLevelRequest {
+    int32 level = 1;
+}
+
+message FindRegionsByLevelResponse {
+    repeated Region region = 1;
+}
+
+message FindRegionsBySkuIdRequest{
+	int32 sku_id=1;
+}
+
+message FindRegionsBySkuIdResponse{
+	repeated Region region=1;
+}
+
+message Region {
+	int32 id = 1;
+	string code = 2;
+	string parentCode = 3;
+	string name = 4;
+	int32 level = 5;
+	int32 codeType = 6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

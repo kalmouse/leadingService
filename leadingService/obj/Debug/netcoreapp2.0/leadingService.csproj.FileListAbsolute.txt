@@ -1,0 +1,11 @@
+D:\code\LeadingService\trunk\leadingService\bin\Debug\netcoreapp2.0\leadingService.deps.json
+D:\code\LeadingService\trunk\leadingService\bin\Debug\netcoreapp2.0\leadingService.runtimeconfig.json
+D:\code\LeadingService\trunk\leadingService\bin\Debug\netcoreapp2.0\leadingService.runtimeconfig.dev.json
+D:\code\LeadingService\trunk\leadingService\bin\Debug\netcoreapp2.0\leadingService.dll
+D:\code\LeadingService\trunk\leadingService\bin\Debug\netcoreapp2.0\leadingService.pdb
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.csprojAssemblyReference.cache
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.csproj.CoreCompileInputs.cache
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.AssemblyInfoInputs.cache
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.AssemblyInfo.cs
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.dll
+D:\code\LeadingService\trunk\leadingService\obj\Debug\netcoreapp2.0\leadingService.pdb
